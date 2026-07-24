@@ -1,7 +1,25 @@
 aid: canto-reality-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/canto-reality-inc.png
 name: Canto Reality Inc.
-description: Canto Reality Inc. is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Canto Reality, Inc. is an early-stage exploratory deployment lab building social experiences,
+  categorized under AI infrastructure. Founded in 2023 in Palo Alto, California by Shuby Deshpande (engineer
+  and researcher) and Aryan Deshpande (engineer), the roughly seven-person company was part of the inaugural
+  Cohort 001 of Andreessen Horowitz's (a16z) Speedrun accelerator program. As of this enrichment pass the
+  company publishes only a marketing landing page (cantoreality.com) with a contact address; it exposes no
+  public developer platform, API documentation, OpenAPI specification, or code repositories, and its GitHub
+  organization has no public repos. This profile is maintained as an a16z portfolio lead in the API
+  Evangelist network and will be upgraded when a public developer or API surface appears.
 url: https://raw.githubusercontent.com/api-evangelist/canto-reality-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Infrastructure
+- Social
+- Startup
+- Palo Alto
+- a16z Speedrun
 apis: []
+common:
+- type: Website
+  url: https://cantoreality.com
+- type: GitHubOrganization
+  url: https://github.com/cantoreality
+- type: DomainSecurity
+  url: security/canto-reality-inc-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
